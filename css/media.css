@@ -1,0 +1,216 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header start */
+    .logo {
+        width: 70%;
+    }  
+    .menu ul li a{        
+        margin: 3px 0 0 9px;
+    }  
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .n-btn{
+        font-size: 16px;
+        color: #21B573;
+        border: 2px solid #21B573;
+        border-radius: 0;
+    }
+    .s-form{
+        font-size: 12px;
+    }
+    .s-btn{
+        font-size: 12px;
+    }
+    /* banner satrt */
+    .banner{
+        padding: 60px 0 50px;
+    }
+    .b-text{
+        padding: 40px 0 10px;
+    }
+    .b-text h1{
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .b-text p{
+        padding: 0 15px;
+        margin-top: 10px;
+        line-height: 30px;
+    }
+    .b-img{
+        padding: 0 70px;
+    }
+     /* features start */
+     .c-title h1 { 
+        font-size: 30px;
+        line-height: 15px;    
+     }
+     .feature {
+        padding: 40px 0;
+    }
+     .f-card{
+        margin-bottom: 20px;
+        padding: 57px 4px 0px;
+        width: 270px;
+        height: 270px;
+        
+    }
+    /* courses start */
+    .c-card{
+        margin-bottom: 20px;
+    }
+    .c-footer{
+        font-size: 14px;
+    }
+    /* footer start */
+    .f-copy {
+        margin-top: 20px;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header start */
+    .menu ul li a{        
+        margin: 5px 0 4px 9px;
+    }    
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }  
+    .n-btn{        
+        color: #21B573;
+        border: 2px solid #21B573;
+        border-radius: 0;
+    }
+    /* courses start */
+    .c-card{
+        margin-bottom: 20px;
+    }
+    /* footer start */
+    .f-copy {
+        margin-top: 40px;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start */    
+    .menu ul li a{        
+        margin: 5px 0 4px 9px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .n-btn{
+        color: #21B573;
+        border: 2px solid #21B573;
+        border-radius: 0;
+    }
+    /* banner satrt */
+    .banner{
+        padding: 60px 0 50px;
+    }
+    .b-text{
+        padding: 40px 65px 0 65px;
+    }
+    .b-text h1{
+        margin: 0 auto;
+        width: 91%;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .b-text p{
+        padding: 0 50px;
+        margin-top: 10px;
+        line-height: 30px;
+    }
+    .b-img{
+        padding: 0 120px;
+    }
+    /* features start */
+    .f-card{
+        margin-bottom: 20px;
+        padding: 57px 4px 0px;
+        width: 270px;
+        height: 270px;
+        
+    }
+    /* courses start */
+    .c-card{
+        margin-bottom: 20px;
+    }
+    /* footer start */
+     .lists{
+        margin: 40px 0 0;
+    }
+    .f-copy {
+        margin-top: 40px;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* header start */
+    .menu ul li a{
+        margin-right: 15px;
+    }
+    .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+        color: #FD511A !important;
+        border-bottom: 1px solid  #FD511A;
+    
+    }
+    /* banner satrt */
+    .b-text h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    /* features start */
+    .f-card{
+        margin: 0;
+        padding: 35px 4px 0px;
+        width: 203px;
+        height: 203px;
+    }
+    .f-img{
+        width: 25%;
+    }
+     /* courses start */
+     .c-footer{
+        font-size: 14px;      
+    }
+    /* footer start */
+     .lists{
+        margin: 0;
+    }
+}
+
+ /* Extra Large devices (desktops, 992px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* header start */
+    .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+        color: #FD511A !important;
+        border-bottom: 1px solid  #FD511A;
+    
+    }
+     /* footer start */
+     .lists{
+        margin: 0;
+    }
+  }
+
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    /* header start */
+    .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+        color: #FD511A !important;
+        border-bottom: 1px solid  #FD511A;
+    
+    }
+    /* footer start */
+    .lists{
+        margin: 0;
+    }
+ }
+
